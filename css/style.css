@@ -1,0 +1,353 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
+}
+h2{
+  margin-bottom: 75px;
+  font-size: 50px;
+text-align: center;
+line-height: 50px;
+text-transform: capitalize;
+letter-spacing: 2px;
+}
+ul, ol {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a, a:hover, a:focus {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.section{
+  padding: 100px ;
+}
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.container {
+  width: 85%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+header{
+  position:fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 100;
+}
+.logo{
+width: 50px;
+  float: left;
+}
+.nav{
+  float: right;
+}
+.nav li{
+  display:inline-block;
+}
+.nav li a{
+  color: white;
+  display:inline-block;
+padding: 14px 12px;
+}
+/*fffffffffffffffffffffff*/
+
+.home_bg{
+  background-image: url(../images/profile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  width: 100%;
+  height:100%;
+}
+.overlay{
+  background: rgba(0,0,0,0.5);
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
+.container_table{
+  display:table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container_table_cell{
+  display: table-cell;
+  text-align: center;
+vertical-align: middle;
+
+}
+.container_table_cell h2{
+  color: white;
+  font-size:54px;
+margin-top: -350px;
+}
+.social_icons a{
+  color: red;
+  display:inline-block;
+padding: 0px 20px;
+font-size: 50px;
+}
+/*about_me!!!!!!!!!!!!*/
+
+.col-left,.col-right{
+  width: 50%;
+float: left;
+padding: 0px 15px;
+}
+.personal-info h3{
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+text-transform: uppercase;
+}
+.personal-info p{
+color: gray;
+line-height: 25px;
+text-align: justify;
+}
+.skill{
+  margin: 25px auto;
+  line-height: 40px;
+  text-transform:capitalize;
+}
+.download_cv , .hire_me{
+  display: inline-block;
+}
+.button-group .download_cv{
+margin-right :18px;
+}
+
+.button-group a{
+  display: inline-block;
+  color: black;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 38px;
+  text-transform: capitalize;
+}
+.button-group a:hover{
+  background-color: black;
+  color: white;
+  transition: all.4s linear;
+}
+/*My Service */
+.my_service{
+  padding: 100px;
+  background-color: #f9f9f9;
+}
+
+.Service-content{
+  text-align: center;
+display: inline-block;
+width: 33%;
+padding: 15px;
+}
+.Service-content i{
+  font-size: 30px;
+  line-height: 46px;
+}
+.Service-content h3{
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.Service-content p {
+  font-size: 14px;
+}
+/*resume*/
+.col-horizontal{
+  padding-bottom: 16px;
+  border-bottom: 1px solid blue;
+}
+.col-horizontal:last-child{
+  border-bottom: 0px;
+}
+.resume-subtitle{
+  font-size:20px;
+  margin-left: 15px;
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+.col-horizontal .col-item{
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+.experience-year {
+  display: inline-block;
+  padding: 4px 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+}
+.resume-detail h4{
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.resume-detail h6{
+  font-size: 12px;
+  margin-bottom: 9px;
+  text-transform: capitalize;
+}
+.resume-detail p{
+  line-height: 22px;
+}
+/*quotes*/
+.quotes{
+  background-image: url(../images/profile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+}
+.quote-inner{
+  color: white;
+  text-align: center;
+
+}
+.quote-inner h3{
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.quote-inner p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+.quote-inner a{
+  border :white;
+  border: 1px solid white;
+  border-radius: 11px;
+  padding: 12px 19px;
+  display: inline-block;
+  margin-top: 22px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.work{
+  background-color: #f7f7f7;
+}
+.col-work{
+  margin-top: 10px;
+  display: inline-block;
+  width:33%;
+  padding:0 15px;
+}
+.col-work a{
+  display: block;
+  margin-bottom: 14px;
+  position: relative;
+
+}
+.col-work a:hover{
+  box-shadow: 0 16px 22px 0 rgba(90,91,95,0.3);
+  top: -5px;
+}
+.contact-form{
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-form .form-input:first-child,
+.contact-form .form-input:nth-child(2){
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+.contact-form .form-input:nth-child(3){
+  width: 100%;
+  padding: 0 15px;
+}
+.contact-form input.form-style{
+  width: 100%;
+  border: none;
+  border-bottom:  1px solid #333;
+  text-transform: capitalize;
+  padding-bottom: 19px;
+  margin-bottom: 12px;
+  outline: none;
+}
+.contact-form textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+}
+.form-submit{
+    text-align: left;
+}
+.form-submit input{
+
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 12px;
+  padding: 15px 60px;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.form-submit input:hover{
+  background-color: black;
+  color: white;
+    transition: all.4s linear;
+}
+.footer {
+  padding: 80px 0;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+.footer-content p{
+  line-height: 22px;
+}
+.footer-social-icon a i{
+  color: #fff;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin: 8px;
+
+}
